@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Giphy Party!</title>
+	</head>
+	<h1>GIF Generator</h1>
+	<body>
+		<form id="form">
+			<input type="text" id="searchGIF" placeholder="Type Here" />
+			<button type="submit" id="submitGIF">Search</button>
+		</form>
+		<br />
+		<hr />
+		<button id="removeGIF">Clear All GIFs</button>
+		<br /><br />
+		<div id="gifArea" class="row"></div>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
